@@ -50,6 +50,9 @@ export const Button = styled.button`
     height: 39px;
     margin-left: 30px;
   }
+  @media (max-width: 700px) {
+    margin-left: 48px;
+  }
 `;
 export const Img = styled.img`
   padding-left: 48px;
@@ -59,6 +62,9 @@ export const Img = styled.img`
   @media (max-width: 758px) {
     padding-left: 30px;
   }
+  @media (max-width: 700px) {
+    padding-left: 48px;
+  }
 `;
 export const Title = styled.h1`
   padding-bottom: 10px;
@@ -67,6 +73,9 @@ export const Title = styled.h1`
   font-size: 40px;
   @media (max-width: 758px) {
     padding-left: 30px;
+  }
+  @media (max-width: 700px) {
+    padding-left: 48px;
   }
 `;
 export const Text = styled.p`
@@ -82,5 +91,8 @@ export const Text = styled.p`
   }
   @media (max-width: 758px) {
     padding-left: 29.5px;
+  }
+  @media (max-width: 700px) {
+    padding-left: 47.5px;
   }
 `;
