@@ -51,8 +51,9 @@ export const Button = styled.button`
     margin-left: 30px;
   }
   @media (max-width: 700px) {
-    width: 146px;
     margin-left: 48px;
+    width: 146px;
+    height: 48px;
   }
 `;
 export const Img = styled.img`
